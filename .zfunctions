@@ -12,3 +12,8 @@ function zsh_add_plugin() {
         git clone "https://github.com/$1.git" "$ZDOTDIR/plugins/$PLUGIN_NAME"
     fi
 }
+
+function mcd() {
+    mkdir $1
+    cd $1
+}

@@ -5,6 +5,9 @@ autoload -U colors && colors
 # Sourcing useful functions:
 source "$ZDOTDIR/.zfunctions"
 
+# Sourcing FZF integrations
+source /usr/share/fzf/key-bindings.zsh
+source /usr/share/fzf/completion.zsh
 # Loading files
 zsh_add_file "zaliases"
 
@@ -26,3 +29,5 @@ _comp_options+=(globdots)             #include hidden files
 
 # Plugins
 zsh_add_plugin "zsh-users/zsh-autosuggestions"
+
+export PATH="$HOME/.local/bin:$PATH"
