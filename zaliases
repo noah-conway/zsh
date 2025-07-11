@@ -1,2 +1,4 @@
 alias ls='ls --color=auto'
 alias note='zk edit --interactive'
+alias ezsh='nvim "$XDG_CONFIG_HOME/zsh" && source "$XDG_CONFIG_HOME/zsh/.zshrc"'
+

@@ -1,0 +1,2 @@
+BEETS_LIBRARY='~/.config/beets/library.db'
+BEETS_CONFIG='/home/noah/.config/beets/config.yaml'
